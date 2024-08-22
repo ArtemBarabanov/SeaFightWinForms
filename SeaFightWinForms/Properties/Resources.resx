@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="1Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Deck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1Deckchosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1Deckchosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Deck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2Deckchosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2Deckchosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Deck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3Deckchosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3Deckchosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Deck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4Deckchosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4Deckchosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Again" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Again.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AgainChosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AgainChosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackButtonText" xml:space="preserve">
+    <value>&lt;&lt;Назад</value>
+  </data>
+  <data name="BadPosition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BadPosition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CloseChosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseChosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerFirstTurnText" xml:space="preserve">
+    <value>Компьютер ходит первым!</value>
+  </data>
+  <data name="ComputerGameButtonText" xml:space="preserve">
+    <value>Игра с компьютером</value>
+  </data>
+  <data name="Damage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damage2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damage3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damage4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damage5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damage6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damage6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Damage7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Damage7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Deck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Deck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeckChosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DeckChosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Destroyed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\destroyed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Explosion9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Explosion9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplosionSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExplosionSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Fight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FightChosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FightChosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameField" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameField.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoodPosition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GoodPosition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IdColumnName" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="IdColumnStatusHeader" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="Lazy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lazy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LazyChosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LazyChosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Letters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Letters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessageTextBoxErrorWarning" xml:space="preserve">
+    <value>Введите текст сообщения!</value>
+  </data>
+  <data name="MessageTextBoxPlaceholderText" xml:space="preserve">
+    <value>Введите сообщение</value>
+  </data>
+  <data name="Minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MinimizeChosen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MinimizeChosen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Miss9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\miss9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MyTurn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\myTurn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NameLabelText" xml:space="preserve">
+    <value>Имя игрока</value>
+  </data>
+  <data name="NameTextBoxErrorWarning" xml:space="preserve">
+    <value>Введите имя для регистрации!</value>
+  </data>
+  <data name="NetGameButtonText" xml:space="preserve">
+    <value>Игра по сети</value>
+  </data>
+  <data name="Numbers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Numbers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpponentTurn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\opponentTurn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayerColumnName" xml:space="preserve">
+    <value>playerName</value>
+  </data>
+  <data name="PlayerColumnNameHeader" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="PlayerColumnStatus" xml:space="preserve">
+    <value>playerStatus</value>
+  </data>
+  <data name="PlayerColumnStatusHeader" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="PlayerLeftGameText" xml:space="preserve">
+    <value>покинул(-а) игру!</value>
+  </data>
+  <data name="PlayersAreReadyText" xml:space="preserve">
+    <value>Оба игрока готовы, игру можно начинать! Первым ходит</value>
+  </data>
+  <data name="PlayerStatusBusy" xml:space="preserve">
+    <value>Занят</value>
+  </data>
+  <data name="PlayerStatusFree" xml:space="preserve">
+    <value>Свободен</value>
+  </data>
+  <data name="PlukSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlukSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RegisterButtonExitText" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="RegisterButtonText" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="RudderHorizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RudderHorizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RudderVertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RudderVertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RyndaSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RyndaSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SeaAndGullsSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeaAndGullsSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SeaFight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeaFight.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeagullSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeagullSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SendMessageButtonText" xml:space="preserve">
+    <value>Отправить сообщение</value>
+  </data>
+  <data name="Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShotSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ShotSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SignDirection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SignDirection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusTextBoxConnectedText" xml:space="preserve">
+    <value>Подключено!</value>
+  </data>
+  <data name="StatusTextBoxErrorText" xml:space="preserve">
+    <value>Ошибка подключения!</value>
+  </data>
+  <data name="StatusTextBoxInProcess" xml:space="preserve">
+    <value>Подключаем</value>
+  </data>
+  <data name="StatusTextBoxText" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ThisIsYouMarkText" xml:space="preserve">
+    <value> - это Вы!</value>
+  </data>
+  <data name="Victory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Victory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VisitedFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VisitedFlag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YourFirstTurnText" xml:space="preserve">
+    <value>Ты ходишь первым!</value>
+  </data>
+</root>
